@@ -28,7 +28,6 @@ function criarMensagemWhatsApp(dados) {
     mensagem += `📞 *Contato:* ${formatarTelefone(dados.contato)}\n`;
     mensagem += `🏫 *Escola:* ${dados.escola}\n`;
     mensagem += `⏰ *Data/Hora:* ${new Date().toLocaleString('pt-BR')}\n`;
-    mensagem += `\n_Inscrição enviada via formulário de Formação Continuada_`;
     
     return mensagem;
 }
